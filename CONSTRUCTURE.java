@@ -20,8 +20,10 @@ public class Main {
 		System.out.printf("First Number=%d\nSecond Number=%d\n",a,b);
 	}
 	public static void main(String[] args) {
-		Main m=new Main();
-		Main n=new Main(300,400);
+		Main m=new Main();//CALL DEFAULT CONSTRUCTOR
+		Main n=new Main(300,400);//CALL PERAMETERRIZE CONSTRUCTOR
+                Main o=new Main(m);//CALL COPY CONSTRUCTOR
+                  o.display();
 		  m.display();
 		  n.display();
 	}

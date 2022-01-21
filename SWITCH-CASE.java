@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		int a,b,ch,re;
-		int tr=0;
+		int co=0;
 		Scanner s=new Scanner(System.in);
-		while(tr<=10)
+		while(co<=10)
 		{
 		System.out.println("Enter First Number");
 		a=s.nextInt();
@@ -26,42 +26,35 @@ public class Main {
 		System.out.println("°°°°°°RESULT°°°°°°");
 		switch(ch)
 		{
-			case 1:
+		   case 1:
 			
-				re=a+b;
-				System.out.println("ADDITION="+re);
-				break;
+	              re=a+b;
+	              System.out.println("ADDITION="+re);
+		      break;
 	
-		   	case 2:
+		   case 2:
 		
-			   re=a-b;
-	   		System.out.println("SUBTRACTION="+re);
-	    		break;
+		      re=a-b;
+	   	      System.out.println("SUBTRACTION="+re);
+	    	      break;
 	    		
-	    	  case 3:
+	    	   case 3:
 	    	  
-	    	    re=a*b;
-	    	    System.out.println("MULTIPLICATION="+re);
-	    	    break;
+	    	     re=a*b;
+	    	     System.out.println("MULTIPLICATION="+re);
+	    	     break;
 	    	   
-	    	 case 4:
+	    	   case 4:
 	    	 
 	    	      re=a/b;
 	    	      System.out.println("DIVISION="+re);
 	    	      break;
-	    	    
-	    	    
 	    	       
-	    	       
-	    	    
-	    	      
-	    	    default:
-	    	    System.out.println("ENETR RIGHT CHOICE ");
-	    	    
-		
-		
+	    	  default:
+	    	     System.out.println("ENETR RIGHT CHOICE ");
+	    	
 		}
-		tr++;
+		co++;
 		}
 		}
 }

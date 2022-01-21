@@ -1,9 +1,9 @@
 import java.util.*;
 public class Main {
 	public static void main(String[] args) {
-		int a,b,c,ch=1;
-		while(ch!=0)
-		{
+	int a,b,c,ch=1;
+	while(ch!=0)
+	{
 	Scanner s=new Scanner(System.in);
 	System.out.println("Enter First Number");
 	a=s.nextInt();

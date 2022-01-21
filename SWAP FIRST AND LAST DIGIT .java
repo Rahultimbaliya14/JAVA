@@ -1,3 +1,4 @@
+//CREATED BY RAHUL TIMBALIYA 
 import java.util.*;
 public class Main {
 	public static void main(String[] args) {
@@ -5,8 +6,8 @@ public class Main {
 		Scanner s=new Scanner(System.in);
 		System.out.println("ENTER THE NUMBER");
 		n=s.nextInt();
-    	int temp=n;
-		while(temp !=0)
+    	        int temp=n;
+		while(temp !=0)//FIND LENGTH
 		{
 			temp=temp/10;
 			length++;
@@ -14,7 +15,7 @@ public class Main {
 		int lastnumber=0;
 		int []a=new int[length+1];
 		int i=length-1;
-		while(n !=0)
+		while(n !=0)// NUMBER STORE IN ARRAY
 		{
 			lastnumber=n%10;
 			a[i]=lastnumber;

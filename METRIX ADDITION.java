@@ -3,7 +3,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		int r,c;
-		System.out.println("                     PROGRAM TO SUM OF METRIX");
+		System.out.println(" PROGRAM TO SUM OF METRIX");
 		System.out.println();
 		System.out.println("Enter Size of Row ");
 		r=s.nextInt();

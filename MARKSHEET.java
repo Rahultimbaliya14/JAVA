@@ -13,13 +13,14 @@ public class Marksheet{
 		System.out.println("Enter C# .NET Mark");
 		mark[2]=s.nextInt();
 		System.out.println("Enter SAD Mark");
-		mark[3]=s.nextInt();
-			}
+		mark[3]=s.nextInt();	
+          }
+
 	  public void persentage()
 	  {
 	  	sum=mark[0]+mark[1]+mark[2]+mark[3];
 	  	persentage=sum/4;
-	  		  		  }
+	  }
 	  public void grade()
 	  {
 	  	if(persentage>0 && persentage<35)
@@ -53,12 +54,12 @@ public class Marksheet{
 	  	System.out.println();
 	  	System.out.println();
 	  	System.out.println("JAVA MARK="+mark[0]);
-	  		System.out.println("OS MARK="+mark[1]);
-	  			System.out.println("C# MARK="+mark[2]);
-	  				System.out.println("SAD MARK="+mark[3]);
-	  				System.out.println();
-	  				System.out.println("SUM="+sum);
-	  				System.out.println("PERSENTAGE ="+persentage);
+	  	System.out.println("OS MARK="+mark[1]);
+	  	System.out.println("C# MARK="+mark[2]);
+	  	System.out.println("SAD MARK="+mark[3]);
+	        System.out.println();
+	        System.out.println("SUM="+sum);
+	  	System.out.println("PERSENTAGE ="+persentage);
 	  }
 	  
 		public static void main(String[] args) {

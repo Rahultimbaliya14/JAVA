@@ -73,7 +73,7 @@ public class MULMETRIX {
 				mul[i][j]=0;
 				for(int n=0;n<c;n++)
 				{
-					mul[i][j]=mul[i][j]+a[i][n]*b[n][j];	
+					mul[i][j]=mul[i][j]+a[i][n]*b[n][j]; //MULTIPLICATION OF METRIX 
 				}
 				System.out.print(+mul[i][j]+"  ");
 	                }

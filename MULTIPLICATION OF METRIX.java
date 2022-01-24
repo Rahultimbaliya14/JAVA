@@ -1,9 +1,10 @@
+//CREATED BY RAHUL TIMBALIYA
 import java.util.*;
 public class MULMETRIX {
 	public static void main(String[] args) {
 		int r,c;
 		Scanner s=new Scanner(System.in);
-		System.out.println("        MULTIPLICATION OF METRIX");
+		System.out.println("MULTIPLICATION OF METRIX");
 		System.out.println();
 		System.out.println("Enter Size Of Row");
 		r=s.nextInt();
@@ -16,7 +17,8 @@ public class MULMETRIX {
 		System.out.println();
 		System.out.println("********************************");
 		System.out.println("ENTER FIRST METRIX ELEMENT");
-		System.out.println("********************************");	         for(int i=0;i<r;i++)
+		System.out.println("********************************");	         
+                for(int i=0;i<r;i++)
 		{
 			for(int j=0;j<c;j++)
 			{
@@ -71,12 +73,11 @@ public class MULMETRIX {
 				mul[i][j]=0;
 				for(int n=0;n<c;n++)
 				{
-					mul[i][j]=mul[i][j]+a[i][n]*b[n][j];
-					
+					mul[i][j]=mul[i][j]+a[i][n]*b[n][j];	
 				}
 				System.out.print(+mul[i][j]+"  ");
-	       }
-	       System.out.println();
-        }
+	                }
+	                System.out.println();
+                 }
 	}
 }

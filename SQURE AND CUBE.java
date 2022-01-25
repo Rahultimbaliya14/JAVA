@@ -1,3 +1,4 @@
+//CREATED BY RAHUL TIMBALIYA 
 import java.util.*;
 public class SQUREANDCUBE {
 	public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class SQUREANDCUBE {
 		{
 		  	square=square*n;
 		  	i++;
-    	}
+    	        }
     	System.out.println();
     	System.out.println("**************");
     	System.out.println("SQUARE");

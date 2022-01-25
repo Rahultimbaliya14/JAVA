@@ -1,5 +1,6 @@
+//CREATED BY RAHUL TIMBALIYA
 import java.util.*;
-public class Main {
+public class FULLMETRIXMULTIPLICATION{
 	public static void main(String[] args) {
 	int r1,r2,c1,c2;
 	System.out.println("     MULTIPLICATION OF METRIX");

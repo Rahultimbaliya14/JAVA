@@ -1,3 +1,4 @@
+//CREATED BY RAHUL TIMBALIYA 
 import java.util.*;
 public class Main {
 	public static void main(String[] args) {
@@ -17,7 +18,7 @@ public class Main {
 		}
 		int []a=new int[length+1];
 		int i=length;
-	     while(n !=0)
+	        while(n !=0)
 		{
 			last=n%10;
 			a[i]=last;

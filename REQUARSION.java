@@ -1,5 +1,7 @@
+//CREATED BY RAHUL TIMBALIYA
 import java.util.*;
-public class REQUARSION {
+public class REQUARSION 
+{
 	static int pow(int base ,int p)
 	{
 		int result=1;

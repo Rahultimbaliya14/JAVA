@@ -43,7 +43,7 @@ public class STUDENT {
 		int j=10000000;
 		Scanner s=new Scanner(System.in);
 		n=s.nextInt();
-    	STUDENT []m=new STUDENT[n+1];
+    	        STUDENT []m=new STUDENT[n+1];
     	for(int i=1;i<=n;i++)
     	{
     		System.out.println();
@@ -103,9 +103,9 @@ public class STUDENT {
     	  System.out.print("Enter Network Mark = ");
     	  net=s.nextInt();
     	  m[i]=new STUDENT(eno,name,gender,java,os,cs,net);
-    	  	  System.out.println("***************************");
+    	  System.out.println("***************************");
     	  System.out.println();
-    	}
+    	  }
     	while(j !=0)
     	{
     	System.out.println();

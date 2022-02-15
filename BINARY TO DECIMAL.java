@@ -1,5 +1,6 @@
+//CREATED BY RAHUL TIMBALIYA 
 import java.util.*;
-public class Main {
+public class BINARYTODECIMAL{
 	public static void main(String[] args) {
 		long n=0,temp,sum=0,last;
 		int length=0,con=0;
@@ -30,11 +31,11 @@ public class Main {
 		int c=15;
 		for(int j=length;j>=1;j--)
 		{
-            if(a[j]==1)
-            {
-               sum=sum+b[c];	
-            }
-            c--;		
+                if(a[j]==1)
+                {
+                   sum=sum+b[c];	
+                }
+                c--;		
 		}
 		System.out.println();
 		System.out.println("************************");

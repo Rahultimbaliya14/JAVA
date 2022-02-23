@@ -1,3 +1,4 @@
+//CREATED BY RAHUL TIMBALIYA 
 import java.util.*;//For Scanner class
 abstract class bank//Abstract class
 {
@@ -51,14 +52,14 @@ class getinput//Perpose Of Input
 		   System.out.println();
 		   System.out.println("***************************");
 		   System.out.println("Enter Amount Of You Invest");
-			amount=s.nextDouble();
-			System.out.println("Enter Interestrate Per Year");
-			rate=s.nextDouble();
-			System.out.println("Enter Perioud Of Intrest");
-			perioud=s.nextInt();
+		   amount=s.nextDouble();
+	           System.out.println("Enter Interestrate Per Year");
+		   rate=s.nextDouble();
+		   System.out.println("Enter Perioud Of Intrest");
+		   perioud=s.nextInt();
 	}
 }
-public class Interestrate {
+public class INTERESTRATE{
 	public static void main(String[] args) {
 		int ch,stop=1;
 		Scanner s=new Scanner(System.in);

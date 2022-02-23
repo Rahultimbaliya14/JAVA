@@ -1,7 +1,8 @@
- import java.util.*;
+//CREATED BY RAHUL TIMBALIYA 
+ import java.util.*;//FOR SCANNER CLASS
  class Con1{
 	int count=0,length;
-	public Con1(int n)
+	public Con1(int n)//CONSTRUCTOR FOR FIND PRIME NUMBER
 	{
 		System.out.println();
 		System.out.println("*************************");
@@ -21,7 +22,7 @@
 		}
 		System.out.println("*************************");
 	}
-	public Con1(String s)
+	public Con1(String s)//CONSTRUCTOR FOR FIND PALINDROME
 	{
 		length=s.length();
 		char a[]=new char[length];
@@ -58,7 +59,7 @@
 	
 		}
 	}
- public class ConstructorOverloading
+ public class CONSTRUCTOROVERLOADING
  {
 	public static void main(String[] args) {
 		int number,ch=1;
@@ -77,7 +78,7 @@
 		System.out.println("Enter Your Choice");
 		ch=s.nextInt();
 		System.out.println();
-		if(ch==1)
+		if(ch==1)//FOR CHOICE OF OPERATION
 		{
 			System.out.println("Enter Number");
 			number=s.nextInt();
@@ -93,9 +94,9 @@
 		{
 		}
 		else
-	   {
+	        {
 	   	System.out.println("Enter Right Choice!!!!!");
-	   }
+	        }
 		}
 		
 	}

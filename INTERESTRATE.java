@@ -1,4 +1,5 @@
 //CREATED BY RAHUL TIMBALIYA 
+//EXAMPLES OF ABSTRACT CLASS
 import java.util.*;//For Scanner class
 abstract class bank//Abstract class
 {

@@ -1,14 +1,15 @@
+//CREATED BY RAHUL TIMBALIYA 
 import java.util.*;
-class Employee {
+class Employee {//class employee
 	int eid;
 	String ename;
 	String department;
 }
-class Salary extends Employee
+class Salary extends Employee//class Salary
 {
 	int salary;
 	int noofleves;
-	void getin(int id,String name,String dept,int sal,int levse )
+	void getin(int id,String name,String dept,int sal,int levse )//Store The dat
 	{
 		eid=id;
 		ename=name;
@@ -17,10 +18,10 @@ class Salary extends Employee
 		noofleves=levse;
 	}
 }
-class Emp_Salary extends Salary
+class Emp_Salary extends Salary//class Emp_Salary
 {
 	
-	void display()
+	void display()//For Display Data
 	{
 		System.out.println("************************");
 	    System.out.println("Employee Information");
@@ -38,7 +39,7 @@ class Emp_Salary extends Salary
          
 		}
 }
-public class exa
+public class EMPLOYEE RECORD//class for main function
 {
 public static void main(String[] args) {
         int id,salary,leves,n,no=1,re=0;

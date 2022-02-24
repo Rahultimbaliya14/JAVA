@@ -23,11 +23,11 @@ class Emp_Salary extends Salary//class Emp_Salary
 	
 	void display()//For Display Data
 	{
-		System.out.println("************************");
-	    System.out.println("Employee Information");
-	    System.out.println("************************");
-	    System.out.println("Employee ID = "+eid);
-	    System.out.println("Employee NAME = "+ename);
+         System.out.println("************************");
+	 System.out.println("Employee Information");
+	 System.out.println("************************");
+	 System.out.println("Employee ID = "+eid);
+	 System.out.println("Employee NAME = "+ename);
          System.out.println("Employee DEPARTMENT = "+department);
          System.out.println("************************");
          System.out.println("SALARY INFORMATION");
@@ -36,8 +36,7 @@ class Emp_Salary extends Salary//class Emp_Salary
          System.out.println("Employee SALARY = "+salary);
          System.out.println("Employee No Of LEVES = "+noofleves);
          System.out.println();
-         
-		}
+	}
 }
 public class EMPLOYEE RECORD//class for main function
 {
@@ -67,8 +66,8 @@ public static void main(String[] args) {
         	emp_salary[i].getin(id,name,department,salary,leves);
         	System.out.println();
         }
-        while(no!=0)
-        {
+      while(no!=0)
+      {
        System.out.println("Enter Id To Show Employee Data And 0 To Exit");
        no=s.nextInt();
        System.out.println();
@@ -82,7 +81,7 @@ public static void main(String[] args) {
        		emp_salary[re].display();
        	}
        }
-	}
+      }
 	 if(re==0)
 	{
 		System.out.println("No Find Any Employee With Employee Id "+no);

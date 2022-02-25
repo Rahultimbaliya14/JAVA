@@ -1,3 +1,4 @@
+//CREATED BY RAHUL TIMBALIYA 
 import java.util.Scanner;
 class customer
 {
@@ -54,10 +55,10 @@ class ticket_cancel extends ticket_book
 			System.out.println("TICKET IS SUCCESFULLY CANCEL");
 			Ticketisbook=0;
 		}
-	System.out.println("******************************");
+	        System.out.println("******************************");
 	}
 }
-public class RailwayBook{
+public class TICKET REGERVATION{
 	public static void main(String[] args) {
 		int n,ch=1,co=1;
 		Scanner s=new Scanner(System.in);
